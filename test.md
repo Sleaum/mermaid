@@ -28,19 +28,7 @@ gitGraph
 ```
 08. push
 09. checkout main
-```mermaid
----
-checkout main
----
-gitGraph
-  commit
-  commit
-  commit
-  branch myFeature
-  checkout myFeature
-  commit
-  checkout main
-```
+
 10. merge from branche
 ```mermaid
 ---
