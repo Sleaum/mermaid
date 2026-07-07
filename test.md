@@ -1,6 +1,6 @@
 ```mermaid
 ---
-checkout vers la branche de travail
+merge from myFeature
 ---
 gitGraph
   commit
@@ -8,4 +8,7 @@ gitGraph
   commit
   branch myFeature
   checkout myFeature
+  commit
+  checkout main
+  merge myFeature
 ```
